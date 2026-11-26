@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf --glob **/node_modules **/dist **/.next pnpm-lock.yaml **/.tsbuildinfo",
-    "build": "node init && next build",
-    "dev": "node init && next dev",
-    "start": "node init && next start",
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "typecheck": "tsc --noEmit",
